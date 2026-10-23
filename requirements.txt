@@ -1,0 +1,10 @@
+# Main pipeline (Python 3.11, OpenJDK 21 for Spark, bcftools for one preprocessing step)
+pyspark==3.5.9
+pyarrow==20.0.0
+pandas
+pysam
+pyliftover
+psycopg2-binary
+sqlalchemy
+pymongo
+neo4j

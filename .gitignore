@@ -1,0 +1,24 @@
+# Secrets and local configuration
+.env
+
+# Raw and intermediate data (about 80 GB, see README for sources)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Spark / Airflow local files
+spark-warehouse/
+metastore_db/
+derby.log
+airflow/
+
+# Editor and OS
+.spyproject/
+.idea/
+.vscode/
+.DS_Store
