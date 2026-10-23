@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="docs/img/banner.jpg" width="100%" alt="Faces from chimpanzee to present-day human overlaid with a network of data points and DNA">
+  <img src="docs/img/banner.jpg" width="90%" alt="Faces from chimpanzee to present-day human overlaid with DNA and data points, above a chart of candidate alleles per 1 Mb window across 22 chromosomes">
 </p>
+
+<p align="center"><sub>Banner: portrait artwork generated with ChatGPT to my specification; the chart in the lower part was added with Claude from this project's own scan results.</sub></p>
 
 # Project Human Evolution
 
