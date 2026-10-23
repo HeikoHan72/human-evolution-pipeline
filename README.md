@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/img/banner.jpg" width="100%" alt="Faces from chimpanzee to present-day human overlaid with a network of data points and DNA">
+</p>
+
 # Project Human Evolution
 
 [![CI](https://github.com/HeikoHan72/human-evolution-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/HeikoHan72/human-evolution-pipeline/actions/workflows/ci.yml)
