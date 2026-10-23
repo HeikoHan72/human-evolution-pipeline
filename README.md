@@ -40,8 +40,10 @@ The results are **hints on candidate alleles in regions, not a genome-wide Neand
   was not investigated.
 
 <p align="center">
-  <img src="docs/img/ergebnis_gruppen.png" width="48%" alt="Variants by group">
-  <img src="docs/img/ergebnis_karte.png" width="48%" alt="Candidate frequency in 26 populations">
+  <img src="docs/img/ergebnis_gruppen.png" width="85%" alt="Variants by group">
+</p>
+<p align="center">
+  <img src="docs/img/ergebnis_karte.png" width="85%" alt="Candidate frequency in 26 populations">
 </p>
 <p align="center">
   <img src="docs/img/ergebnis_scan.png" width="97%" alt="Genome scan in 1 Mb windows">
