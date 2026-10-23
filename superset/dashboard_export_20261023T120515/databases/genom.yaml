@@ -1,0 +1,15 @@
+database_name: genom
+sqlalchemy_uri: postgresql+psycopg2://postgres:XXXXXXXXXX@bde-postgres:5432/genom
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+impersonate_user: false
+configuration_method: dynamic_form
+uuid: 76648f3b-dbad-4ea9-8974-486cc111713b
+version: 1.0.0

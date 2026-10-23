@@ -55,6 +55,17 @@ The results are **hints on candidate alleles in regions, not a genome-wide Neand
   <img src="docs/img/ergebnis_scan.png" width="97%" alt="Genome scan in 1 Mb windows">
 </p>
 
+## Superset dashboard
+
+Besides the offline dashboard, the PostgreSQL database `genom` (script 12) is connected to **Apache Superset 6.0.0**.
+Three charts on the tables `haeufigkeiten`, `scan_1mb` and `kandidaten`: mean candidate-allele frequency per
+population, candidates per chromosome, and candidates per pilot gene (STAT2 shows the negative result).
+Setup, import of the exported dashboard and notes: [superset/README.md](superset/README.md).
+
+<p align="center">
+  <img src="superset/dashboard.jpg" width="97%" alt="Superset dashboard with three charts">
+</p>
+
 ## Method in one paragraph
 
 Every SNV of 1000 Genomes is joined with the **ancestral base** (Ensembl Ancestral Alleles, release 112) and
@@ -175,8 +186,8 @@ Stated plainly, because they matter more than the headline numbers:
 
 ## Roadmap
 
-- [ ] Apache Superset dashboard on the PostgreSQL database (`superset/` with setup instructions and screenshots),
-      in addition to the offline dashboard.
+- [x] Apache Superset dashboard on the PostgreSQL database (`superset/`, three charts), in addition to the
+      offline dashboard. Still open: more charts (candidate strength, genome scan per window).
 - [ ] `docker-compose.yml` for the three databases.
 - [ ] Run the Spark tasks end to end through the Airflow DAG.
 - [ ] Define the gene list once and import it in 12-14.

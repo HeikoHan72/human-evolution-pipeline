@@ -1,0 +1,89 @@
+dashboard_title: Project Human Evolution
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: a54d0537-79f3-49c6-9067-3b3fcb6b96a8
+metadata:
+  color_scheme_domain: []
+  shared_label_colors: []
+  map_label_colors: {}
+  label_colors: {}
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-59LDSAIZ
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Project Human Evolution
+    type: HEADER
+  ROW-N-59LDSAIZ:
+    children:
+    - CHART-M7C94T4M
+    - CHART-2NSHR9CA
+    - CHART-ZCA8BHYZ
+    id: ROW-N-59LDSAIZ
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-M7C94T4M:
+    children: []
+    id: CHART-M7C94T4M
+    meta:
+      chartId: 105
+      height: 50
+      sliceName: Candidate alleles per chromosome
+      uuid: 6c78cc8c-f1c5-416a-a639-4843ed1c167e
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-59LDSAIZ
+  CHART-2NSHR9CA:
+    children: []
+    id: CHART-2NSHR9CA
+    meta:
+      chartId: 106
+      height: 50
+      sliceName: Candidate alleles per pilot gene
+      uuid: 45a61d2b-a20b-4ddb-be9d-0df914efe8c4
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-59LDSAIZ
+  CHART-ZCA8BHYZ:
+    children: []
+    id: CHART-ZCA8BHYZ
+    meta:
+      chartId: 104
+      height: 50
+      sliceName: Mean candidate-allele frequency per population (%)
+      uuid: 9d0ef055-83a0-4d61-886b-b001f6ccdd39
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-59LDSAIZ
+theme_uuid: null
+version: 1.0.0
